@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.actuate.istudio.analysis.model:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.actuate.istudio.analysis.model="http:///com.actuate.istudio.analysis.model.ecore" name="DataModelExampleApp">
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="new_dashboard.dashboard" path="/DataModelExampleApp/Dashboards/new_dashboard.dashboard">
+    <missingDependencies>platform:/resource/DataModelExampleApp/Data%20Objects/Data%20Model%20Example.data</missingDependencies>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="Data Model Example.data" path="/DataModelExampleApp/Data Objects/Data Model Example.data"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:DataDesign" name="Data Model Example.datadesign" path="/DataModelExampleApp/Data Objects/Data Model Example.datadesign">
+    <dataSets name="ORDERS">
+      <columns name="ORDERNUMBER"/>
+      <columns name="ORDERDATE"/>
+      <columns name="REQUIREDDATE"/>
+      <columns name="SHIPPEDDATE"/>
+      <columns name="STATUS"/>
+      <columns name="COMMENTS"/>
+      <columns name="CUSTOMERNUMBER"/>
+    </dataSets>
+    <dataSets name="CUSTOMERS">
+      <columns name="CUSTOMERNUMBER"/>
+      <columns name="CUSTOMERNAME"/>
+      <columns name="CONTACTLASTNAME"/>
+      <columns name="CONTACTFIRSTNAME"/>
+      <columns name="PHONE"/>
+      <columns name="ADDRESSLINE1"/>
+      <columns name="ADDRESSLINE2"/>
+      <columns name="CITY"/>
+      <columns name="STATE"/>
+      <columns name="POSTALCODE"/>
+      <columns name="COUNTRY"/>
+      <columns name="SALESREPEMPLOYEENUMBER"/>
+      <columns name="CREDITLIMIT"/>
+    </dataSets>
+    <dataSets name="EMPLOYEES">
+      <columns name="EMPLOYEENUMBER"/>
+      <columns name="LASTNAME"/>
+      <columns name="FIRSTNAME"/>
+      <columns name="EXTENSION"/>
+      <columns name="EMAIL"/>
+      <columns name="OFFICECODE"/>
+      <columns name="REPORTSTO"/>
+      <columns name="JOBTITLE"/>
+    </dataSets>
+    <dataSets name="OFFICES">
+      <columns name="OFFICECODE"/>
+      <columns name="CITY"/>
+      <columns name="PHONE"/>
+      <columns name="ADDRESSLINE1"/>
+      <columns name="ADDRESSLINE2"/>
+      <columns name="STATE"/>
+      <columns name="COUNTRY"/>
+      <columns name="POSTALCODE"/>
+      <columns name="TERRITORY"/>
+    </dataSets>
+    <dataSets name="ORDER DETAILS">
+      <columns name="ORDERNUMBER"/>
+      <columns name="PRODUCTCODE"/>
+      <columns name="QUANTITYORDERED"/>
+      <columns name="PRICEEACH"/>
+      <columns name="ORDERLINENUMBER"/>
+    </dataSets>
+    <dataSets name="PRODUCT LINES">
+      <columns name="PRODUCTLINE"/>
+      <columns name="TEXTDESCRIPTION"/>
+      <columns name="HTMLDESCRIPTION"/>
+      <columns name="IMAGE"/>
+    </dataSets>
+    <dataSets name="PRODUCTS">
+      <columns name="PRODUCTCODE"/>
+      <columns name="PRODUCTNAME"/>
+      <columns name="PRODUCTLINE"/>
+      <columns name="PRODUCTSCALE"/>
+      <columns name="PRODUCTVENDOR"/>
+      <columns name="PRODUCTDESCRIPTION"/>
+      <columns name="QUANTITYINSTOCK"/>
+      <columns name="BUYPRICE"/>
+      <columns name="MSRP"/>
+    </dataSets>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:DataDesign" name="new_datadesign.datadesign" path="/DataModelExampleApp/Data Objects/new_datadesign.datadesign">
+    <dataSets name="ORDERS">
+      <columns name="ORDERNUMBER"/>
+      <columns name="ORDERDATE"/>
+      <columns name="REQUIREDDATE"/>
+      <columns name="SHIPPEDDATE"/>
+      <columns name="STATUS"/>
+      <columns name="COMMENTS"/>
+      <columns name="CUSTOMERNUMBER"/>
+    </dataSets>
+    <dataSets name="CUSTOMERS">
+      <columns name="CUSTOMERNUMBER"/>
+      <columns name="CUSTOMERNAME"/>
+      <columns name="CONTACTLASTNAME"/>
+      <columns name="CONTACTFIRSTNAME"/>
+      <columns name="PHONE"/>
+      <columns name="ADDRESSLINE1"/>
+      <columns name="ADDRESSLINE2"/>
+      <columns name="CITY"/>
+      <columns name="STATE"/>
+      <columns name="POSTALCODE"/>
+      <columns name="COUNTRY"/>
+      <columns name="SALESREPEMPLOYEENUMBER"/>
+      <columns name="CREDITLIMIT"/>
+    </dataSets>
+    <dataSets name="EMPLOYEES">
+      <columns name="EMPLOYEENUMBER"/>
+      <columns name="LASTNAME"/>
+      <columns name="FIRSTNAME"/>
+      <columns name="EXTENSION"/>
+      <columns name="EMAIL"/>
+      <columns name="OFFICECODE"/>
+      <columns name="REPORTSTO"/>
+      <columns name="JOBTITLE"/>
+    </dataSets>
+    <dataSets name="OFFICES">
+      <columns name="OFFICECODE"/>
+      <columns name="CITY"/>
+      <columns name="PHONE"/>
+      <columns name="ADDRESSLINE1"/>
+      <columns name="ADDRESSLINE2"/>
+      <columns name="STATE"/>
+      <columns name="COUNTRY"/>
+      <columns name="POSTALCODE"/>
+      <columns name="TERRITORY"/>
+    </dataSets>
+    <dataSets name="ORDER DETAILS">
+      <columns name="ORDERNUMBER"/>
+      <columns name="PRODUCTCODE"/>
+      <columns name="QUANTITYORDERED"/>
+      <columns name="PRICEEACH"/>
+      <columns name="ORDERLINENUMBER"/>
+    </dataSets>
+    <dataSets name="PRODUCT LINES">
+      <columns name="PRODUCTLINE"/>
+      <columns name="TEXTDESCRIPTION"/>
+      <columns name="HTMLDESCRIPTION"/>
+      <columns name="IMAGE"/>
+    </dataSets>
+    <dataSets name="PRODUCTS">
+      <columns name="PRODUCTCODE"/>
+      <columns name="PRODUCTNAME"/>
+      <columns name="PRODUCTLINE"/>
+      <columns name="PRODUCTSCALE"/>
+      <columns name="PRODUCTVENDOR"/>
+      <columns name="PRODUCTDESCRIPTION"/>
+      <columns name="QUANTITYINSTOCK"/>
+      <columns name="BUYPRICE"/>
+      <columns name="MSRP"/>
+    </dataSets>
+  </files>
+</com.actuate.istudio.analysis.model:Project>
