@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.actuate.istudio.analysis.model:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.actuate.istudio.analysis.model="http:///com.actuate.istudio.analysis.model.ecore" name="DataModelExampleApp">
-  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="new_dashboard.dashboard" path="/DataModelExampleApp/Dashboards/new_dashboard.dashboard">
-    <missingDependencies>platform:/resource/DataModelExampleApp/Data%20Objects/Data%20Model%20Example.data</missingDependencies>
+  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="Data Model Example.data" path="/DataModelExampleApp/Data Objects/Data Model Example.data">
+    <targetDashboardsMap key="//@files.1" value="1"/>
   </files>
-  <files xsi:type="com.actuate.istudio.analysis.model:Data" name="Data Model Example.data" path="/DataModelExampleApp/Data Objects/Data Model Example.data"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:Dashboard" name="new_dashboard.dashboard" path="/DataModelExampleApp/Dashboards/new_dashboard.dashboard">
+    <dataMap key="//@files.0" value="1"/>
+  </files>
   <files xsi:type="com.actuate.istudio.analysis.model:DataDesign" name="Data Model Example.datadesign" path="/DataModelExampleApp/Data Objects/Data Model Example.datadesign">
     <dataSets name="ORDERS">
       <columns name="ORDERNUMBER"/>
